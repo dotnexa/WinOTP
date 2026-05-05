@@ -1,0 +1,10 @@
+<Window x:Class="TotpViewerWpf.AddMethodWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kod Ekle" Width="330" Height="245" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Background="White">
+    <StackPanel Margin="26" VerticalAlignment="Center">
+        <TextBlock Text="Yeni kod ekle" FontSize="22" FontWeight="SemiBold" Foreground="#202124" Margin="0,0,0,18" />
+        <Button Content="Manual Ekle" Height="48" FontSize="16" Margin="0,0,0,12" Click="Manual_Click" />
+        <Button Content="QR Tara / Google Auth İçe Aktar" Height="48" FontSize="15" Click="Qr_Click" />
+    </StackPanel>
+</Window>

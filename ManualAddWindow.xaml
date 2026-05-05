@@ -1,0 +1,15 @@
+<Window x:Class="TotpViewerWpf.ManualAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manual Ekle" Width="390" Height="340" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Background="White">
+    <StackPanel Margin="26">
+        <TextBlock Text="Manual Ekle" FontSize="22" FontWeight="SemiBold" Foreground="#202124" Margin="0,0,0,18" />
+        <TextBlock Text="Servis adı" />
+        <TextBox x:Name="IssuerBox" Height="34" Margin="0,4,0,12" />
+        <TextBlock Text="Kullanıcı" />
+        <TextBox x:Name="UsernameBox" Height="34" Margin="0,4,0,12" />
+        <TextBlock Text="Secret Key" />
+        <TextBox x:Name="SecretBox" Height="34" Margin="0,4,0,20" />
+        <Button Content="Kaydet" Height="42" Click="Save_Click" />
+    </StackPanel>
+</Window>
